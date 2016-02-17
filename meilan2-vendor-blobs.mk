@@ -98,7 +98,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/meilan2/proprietary/lib64/libsfb.so:system/lib64/libsfb.so \
     vendor/meizu/meilan2/proprietary/lib/libdngop.so:system/lib/libdngop.so \
     vendor/meizu/meilan2/proprietary/lib64/libdngop.so:system/lib64/libdngop.so \
-    vendor/meizu/meilan2/proprietary/etc/permissions/android.hardware.camera.xml:system/etc/permissions/android.hardware.camera.xml \
     vendor/meizu/meilan2/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/meizu/meilan2/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/meizu/meilan2/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
