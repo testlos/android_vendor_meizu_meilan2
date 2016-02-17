@@ -199,6 +199,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/meilan2/proprietary/lib/hw/hwcomposer.mt6735.so:system/lib/hw/hwcomposer.mt6735.so \
     vendor/meizu/meilan2/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
     vendor/meizu/meilan2/proprietary/lib/hw/lights.default.so:system/lib/hw/lights.default.so \
+    vendor/meizu/meilan2/proprietary/lib64/hw/lights.default.so:system/lib64/hw/lights.default.so \
     vendor/meizu/meilan2/proprietary/lib/hw/local_time.default.so:system/lib/hw/local_time.default.so \
     vendor/meizu/meilan2/proprietary/lib/hw/memtrack.mt6735.so:system/lib/hw/memtrack.mt6735.so \
     vendor/meizu/meilan2/proprietary/lib/hw/power.default.so:system/lib/hw/power.default.so \
