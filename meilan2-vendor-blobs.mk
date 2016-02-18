@@ -339,4 +339,5 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/meilan2/proprietary/lib/libcustom_nvram.so:system/lib/libcustom_nvram.so \
     vendor/meizu/meilan2/proprietary/lib64/libcustom_nvram.so:system/lib64/libcustom_nvram.so \
     vendor/meizu/meilan2/proprietary/lib/libccci_util.so:system/lib/libccci_util.so \
-    vendor/meizu/meilan2/proprietary/lib64/libccci_util.so:system/lib64/libccci_util.so
+    vendor/meizu/meilan2/proprietary/lib64/libccci_util.so:system/lib64/libccci_util.so \
+    vendor/meizu/meilan2/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf
