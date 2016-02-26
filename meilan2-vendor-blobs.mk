@@ -105,6 +105,8 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/meilan2/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/meizu/meilan2/proprietary/vendor/lib/mediadrm/libmockdrmcryptoplugin.so:system/vendor/lib/mediadrm/libmockdrmcryptoplugin.so \
     vendor/meizu/meilan2/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/meizu/meilan2/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/meizu/meilan2/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/meizu/meilan2/proprietary/app/YGPS/YGPS.apk:system/app/YGPS/YGPS.apk \
     vendor/meizu/meilan2/proprietary/bin/mtk_agpsd:system/bin/mtk_agpsd \
     vendor/meizu/meilan2/proprietary/etc/agps_profiles_conf2.xml:system/etc/agps_profiles_conf2.xml \
@@ -190,6 +192,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/meilan2/proprietary/bin/AcdApiDaemon:system/bin/AcdApiDaemon \
     vendor/meizu/meilan2/proprietary/xbin/BGW:system/xbin/BGW \
     vendor/meizu/meilan2/proprietary/xbin/mnld:system/xbin/mnld \
+    vendor/meizu/meilan2/proprietary/lib/libmnl.so:system/lib/libmnl.so \
     vendor/meizu/meilan2/proprietary/lib64/hw/memtrack.mt6735.so:system/lib64/hw/memtrack.mt6735.so \
     vendor/meizu/meilan2/proprietary/lib64/hw/sensors.mt6735.so:system/lib64/hw/sensors.mt6735.so \
     vendor/meizu/meilan2/proprietary/lib/hw/audio.primary.mt6735.so:system/lib/hw/audio.primary.mt6735.so \
