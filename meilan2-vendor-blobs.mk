@@ -16,6 +16,16 @@
 
 PRODUCT_COPY_FILES += \
     vendor/meizu/meilan2/proprietary/vendor/lib/hw/bluetooth.blueangel.so:system/vendor/lib/hw/bluetooth.blueangel.so \
+    vendor/meizu/meilan2/proprietary/lib/libbtcust.so:system/lib/libbtcust.so \
+    vendor/meizu/meilan2/proprietary/lib/libbtsession.so:system/lib/libbtsession.so \
+    vendor/meizu/meilan2/proprietary/lib/libbtcusttable.so:system/lib/libbtcusttable.so \
+    vendor/meizu/meilan2/proprietary/lib64/libbtcusttable.so:system/lib64/libbtcusttable.so \
+    vendor/meizu/meilan2/proprietary/lib/libcustom_prop.so:system/lib/libcustom_prop.so \
+    vendor/meizu/meilan2/proprietary/lib64/libcustom_prop.so:system/lib64/libcustom_prop.so \
+    vendor/meizu/meilan2/proprietary/lib/libbtstd.so:system/lib/libbtstd.so \
+    vendor/meizu/meilan2/proprietary/lib64/libbtstd.so:system/lib64/libbtstd.so \
+    vendor/meizu/meilan2/proprietary/lib/libextsys.so:system/lib/libextsys.so \
+    vendor/meizu/meilan2/proprietary/lib64/libextsys.so:system/lib64/libextsys.so \
     vendor/meizu/meilan2/proprietary/app/MtkBt/MtkBt.apk:system/app/MtkBt/MtkBt.apk \
     vendor/meizu/meilan2/proprietary/lib64/libbluetoothem_mtk.so:system/lib64/libbluetoothem_mtk.so \
     vendor/meizu/meilan2/proprietary/lib64/libbluetooth_mtk.so:system/lib64/libbluetooth_mtk.so \
@@ -24,6 +34,9 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/meilan2/proprietary/lib/libbluetoothdrv.so:system/lib/libbluetoothdrv.so \
     vendor/meizu/meilan2/proprietary/lib64/libbluetoothdrv.so:system/lib64/libbluetoothdrv.so \
     vendor/meizu/meilan2/proprietary/bin/mtkbt:system/bin/mtkbt \
+    vendor/meizu/meilan2/proprietary/lib/libadpcm.so:system/lib/libadpcm.so \
+    vendor/meizu/meilan2/proprietary/lib/libpalsecurity.so:system/lib/libpalsecurity.so \
+    vendor/meizu/meilan2/proprietary/lib/libpalwlan_mtk.so:system/lib/libpalwlan_mtk.so \
     vendor/meizu/meilan2/proprietary/vendor/lib/hw/audio.a2dp.blueangel.so:system/vendor/lib/hw/audio.a2dp.blueangel.so \
     vendor/meizu/meilan2/proprietary/lib/libcamera_client_mtk.so:system/lib/libcamera_client_mtk.so \
     vendor/meizu/meilan2/proprietary/lib64/libcamera_client_mtk.so:system/lib64/libcamera_client_mtk.so \
