@@ -356,4 +356,50 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/meilan2/proprietary/lib64/libcustom_nvram.so:system/lib64/libcustom_nvram.so \
     vendor/meizu/meilan2/proprietary/lib/libccci_util.so:system/lib/libccci_util.so \
     vendor/meizu/meilan2/proprietary/lib64/libccci_util.so:system/lib64/libccci_util.so \
-    vendor/meizu/meilan2/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf
+    vendor/meizu/meilan2/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
+    vendor/meizu/meilan2/proprietary/etc/mtk_omx_core.cfg:system/etc/mtk_omx_core.cfg \
+    vendor/meizu/meilan2/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
+    vendor/meizu/meilan2/proprietary/lib64/libstagefrighthw.so:system/lib64/libstagefrighthw.so \
+    vendor/meizu/meilan2/proprietary/lib/libMtkOmxCore.so:system/lib/libMtkOmxCore.so \
+    vendor/meizu/meilan2/proprietary/lib64/libMtkOmxCore.so:system/lib64/libMtkOmxCore.so \
+    vendor/meizu/meilan2/proprietary/lib/libMtkOmxAdpcmDec.so:system/lib/libMtkOmxAdpcmDec.so \
+    vendor/meizu/meilan2/proprietary/lib/libMtkOmxAdpcmEnc.so:system/lib/libMtkOmxAdpcmEnc.so \
+    vendor/meizu/meilan2/proprietary/lib/libMtkOmxAlacDec.so:system/lib/libMtkOmxAlacDec.so \
+    vendor/meizu/meilan2/proprietary/lib/libMtkOmxApeDec.so:system/lib/libMtkOmxApeDec.so \
+    vendor/meizu/meilan2/proprietary/lib/libMtkOmxCore.so:system/lib/libMtkOmxCore.so \
+    vendor/meizu/meilan2/proprietary/lib/libMtkOmxFlacDec.so:system/lib/libMtkOmxFlacDec.so \
+    vendor/meizu/meilan2/proprietary/lib/libMtkOmxG711Dec.so:system/lib/libMtkOmxG711Dec.so \
+    vendor/meizu/meilan2/proprietary/lib/libMtkOmxGsmDec.so:system/lib/libMtkOmxGsmDec.so \
+    vendor/meizu/meilan2/proprietary/lib/libMtkOmxMp3Dec.so:system/lib/libMtkOmxMp3Dec.so \
+    vendor/meizu/meilan2/proprietary/lib/libMtkOmxRawDec.so:system/lib/libMtkOmxRawDec.so \
+    vendor/meizu/meilan2/proprietary/lib/libMtkOmxVdec.so:system/lib/libMtkOmxVdec.so \
+    vendor/meizu/meilan2/proprietary/lib/libMtkOmxVenc.so:system/lib/libMtkOmxVenc.so \
+    vendor/meizu/meilan2/proprietary/lib/libMtkOmxVorbisEnc.so:system/lib/libMtkOmxVorbisEnc.so \
+    vendor/meizu/meilan2/proprietary/lib64/libMtkOmxAdpcmDec.so:system/lib64/libMtkOmxAdpcmDec.so \
+    vendor/meizu/meilan2/proprietary/lib64/libMtkOmxAdpcmEnc.so:system/lib64/libMtkOmxAdpcmEnc.so \
+    vendor/meizu/meilan2/proprietary/lib64/libMtkOmxAlacDec.so:system/lib64/libMtkOmxAlacDec.so \
+    vendor/meizu/meilan2/proprietary/lib64/libMtkOmxApeDec.so:system/lib64/libMtkOmxApeDec.so \
+    vendor/meizu/meilan2/proprietary/lib64/libMtkOmxCore.so:system/lib64/libMtkOmxCore.so \
+    vendor/meizu/meilan2/proprietary/lib64/libMtkOmxG711Dec.so:system/lib64/libMtkOmxG711Dec.so \
+    vendor/meizu/meilan2/proprietary/lib64/libMtkOmxGsmDec.so:system/lib64/libMtkOmxGsmDec.so \
+    vendor/meizu/meilan2/proprietary/lib64/libMtkOmxMp3Dec.so:system/lib64/libMtkOmxMp3Dec.so \
+    vendor/meizu/meilan2/proprietary/lib64/libMtkOmxRawDec.so:system/lib64/libMtkOmxRawDec.so \
+    vendor/meizu/meilan2/proprietary/lib64/libMtkOmxVorbisEnc.so:system/lib64/libMtkOmxVorbisEnc.so \
+    vendor/meizu/meilan2/proprietary/lib/libmhalImageCodec.so:system/lib/libmhalImageCodec.so \
+    vendor/meizu/meilan2/proprietary/lib64/libmhalImageCodec.so:system/lib64/libmhalImageCodec.so \
+    vendor/meizu/meilan2/proprietary/lib/libJpgDecPipe.so:system/lib/libJpgDecPipe.so \
+    vendor/meizu/meilan2/proprietary/lib64/libJpgDecPipe.so:system/lib64/libJpgDecPipe.so \
+    vendor/meizu/meilan2/proprietary/lib/libGdmaScalerPipe.so:system/lib/libGdmaScalerPipe.so \
+    vendor/meizu/meilan2/proprietary/lib64/libGdmaScalerPipe.so:system/lib64/libGdmaScalerPipe.so \
+    vendor/meizu/meilan2/proprietary/lib/libSwJpgCodec.so:system/lib/libSwJpgCodec.so \
+    vendor/meizu/meilan2/proprietary/lib64/libSwJpgCodec.so:system/lib64/libSwJpgCodec.so \
+    vendor/meizu/meilan2/proprietary/lib/libvcodec_utility.so:system/lib/libvcodec_utility.so \
+    vendor/meizu/meilan2/proprietary/lib64/libvcodec_utility.so:system/lib64/libvcodec_utility.so \
+    vendor/meizu/meilan2/proprietary/lib/libvcodec_oal.so:system/lib/libvcodec_oal.so \
+    vendor/meizu/meilan2/proprietary/lib/libvcodecdrv.so:system/lib/libvcodecdrv.so \
+    vendor/meizu/meilan2/proprietary/lib64/libvcodecdrv.so:system/lib64/libvcodecdrv.so \
+    vendor/meizu/meilan2/proprietary/lib/libmmprofile.so:system/lib/libmmprofile.so \
+    vendor/meizu/meilan2/proprietary/lib64/libmmprofile.so:system/lib64/libmmprofile.so \
+    vendor/meizu/meilan2/proprietary/lib/libmp4enc_sa.ca7.so:system/lib/libmp4enc_sa.ca7.so \
+    vendor/meizu/meilan2/proprietary/lib/libvc1dec_sa.ca7.so:system/lib/libvc1dec_sa.ca7.so \
+    vendor/meizu/meilan2/proprietary/lib/libvp8dec_sa.ca7.so:system/lib/libvp8dec_sa.ca7.so
