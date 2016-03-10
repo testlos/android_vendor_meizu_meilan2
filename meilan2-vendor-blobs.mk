@@ -400,6 +400,10 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/meilan2/proprietary/lib64/libvcodecdrv.so:system/lib64/libvcodecdrv.so \
     vendor/meizu/meilan2/proprietary/lib/libmmprofile.so:system/lib/libmmprofile.so \
     vendor/meizu/meilan2/proprietary/lib64/libmmprofile.so:system/lib64/libmmprofile.so \
+    vendor/meizu/meilan2/proprietary/lib/libHEVCdec_sa.ca7.android.so:system/lib/libHEVCdec_sa.ca7.android.so \
+    vendor/meizu/meilan2/proprietary/lib/libh264enc_sa.ca7.so:system/lib/libh264enc_sa.ca7.so \
     vendor/meizu/meilan2/proprietary/lib/libmp4enc_sa.ca7.so:system/lib/libmp4enc_sa.ca7.so \
     vendor/meizu/meilan2/proprietary/lib/libvc1dec_sa.ca7.so:system/lib/libvc1dec_sa.ca7.so \
-    vendor/meizu/meilan2/proprietary/lib/libvp8dec_sa.ca7.so:system/lib/libvp8dec_sa.ca7.so
+    vendor/meizu/meilan2/proprietary/lib/libvp8dec_sa.ca7.so:system/lib/libvp8dec_sa.ca7.so \
+    vendor/meizu/meilan2/proprietary/lib/libvp8enc_sa.ca7.so:system/lib/libvp8enc_sa.ca7.so \
+    vendor/meizu/meilan2/proprietary/lib/libvp9dec_sa.ca7.so:system/lib/libvp9dec_sa.ca7.so
