@@ -181,6 +181,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/meilan2/proprietary/bin/mdlogger:system/bin/mdlogger \
     vendor/meizu/meilan2/proprietary/bin/memsicd:system/bin/memsicd \
     vendor/meizu/meilan2/proprietary/bin/memsicd3416x:system/bin/memsicd3416x \
+    vendor/meizu/meilan2/proprietary/bin/memsicd3524x:system/bin/memsicd3524x \
     vendor/meizu/meilan2/proprietary/bin/msensord:system/bin/msensord \
     vendor/meizu/meilan2/proprietary/bin/muxreport:system/bin/muxreport \
     vendor/meizu/meilan2/proprietary/bin/nvram_agent_binder:system/bin/nvram_agent_binder \
