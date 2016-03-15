@@ -302,6 +302,8 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/meilan2/proprietary/lib64/libfeatureio.so:system/lib64/libfeatureio.so \
     vendor/meizu/meilan2/proprietary/lib/libcurl.so:system/lib/libcurl.so \
     vendor/meizu/meilan2/proprietary/lib64/libcurl.so:system/lib64/libcurl.so \
+    vendor/meizu/meilan2/proprietary/lib/libBnMtkCodec.so:system/lib/libBnMtkCodec.so \
+    vendor/meizu/meilan2/proprietary/lib64/libBnMtkCodec.so:system/lib64/libBnMtkCodec.so \
     vendor/meizu/meilan2/proprietary/lib/libdpframework.so:system/lib/libdpframework.so \
     vendor/meizu/meilan2/proprietary/lib64/libdpframework.so:system/lib64/libdpframework.so \
     vendor/meizu/meilan2/proprietary/lib/libged.so:system/lib/libged.so \
