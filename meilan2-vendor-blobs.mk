@@ -16,6 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/meizu/meilan2/proprietary/vendor/lib/hw/bluetooth.blueangel.so:system/vendor/lib/hw/bluetooth.blueangel.so \
+    vendor/meizu/meilan2/proprietary/lib/libsbccodec.so:system/lib/libsbccodec.so \
     vendor/meizu/meilan2/proprietary/lib/libbtcust.so:system/lib/libbtcust.so \
     vendor/meizu/meilan2/proprietary/lib/libbtsession.so:system/lib/libbtsession.so \
     vendor/meizu/meilan2/proprietary/lib/libbtcusttable.so:system/lib/libbtcusttable.so \
