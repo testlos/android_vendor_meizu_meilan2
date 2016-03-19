@@ -171,6 +171,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/meilan2/proprietary/bin/ccci_fsd:system/bin/ccci_fsd \
     vendor/meizu/meilan2/proprietary/bin/ccci_mdinit:system/bin/ccci_mdinit \
     vendor/meizu/meilan2/proprietary/bin/dualmdlogger:system/bin/dualmdlogger \
+    vendor/meizu/meilan2/proprietary/bin/em_svr:system/bin/em_svr \
     vendor/meizu/meilan2/proprietary/bin/fsck_msdos_mtk:system/bin/fsck_msdos_mtk \
     vendor/meizu/meilan2/proprietary/bin/geomagneticd:system/bin/geomagneticd \
     vendor/meizu/meilan2/proprietary/bin/gsm0710muxd:system/bin/gsm0710muxd \
@@ -304,6 +305,24 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/meilan2/proprietary/lib64/libcurl.so:system/lib64/libcurl.so \
     vendor/meizu/meilan2/proprietary/lib/libBnMtkCodec.so:system/lib/libBnMtkCodec.so \
     vendor/meizu/meilan2/proprietary/lib64/libBnMtkCodec.so:system/lib64/libBnMtkCodec.so \
+    vendor/meizu/meilan2/proprietary/lib/libem_support_jni.so:system/lib/libem_support_jni.so \
+    vendor/meizu/meilan2/proprietary/lib64/libem_support_jni.so:system/lib64/libem_support_jni.so \
+    vendor/meizu/meilan2/proprietary/lib/libem_bt_jni.so:system/lib/libem_bt_jni.so \
+    vendor/meizu/meilan2/proprietary/lib64/libem_bt_jni.so:system/lib64/libem_bt_jni.so \
+    vendor/meizu/meilan2/proprietary/lib/libem_gpio_jni.so:system/lib/libem_gpio_jni.so \
+    vendor/meizu/meilan2/proprietary/lib64/libem_gpio_jni.so:system/lib64/libem_gpio_jni.so \
+    vendor/meizu/meilan2/proprietary/lib/libem_lte_jni.so:system/lib/libem_lte_jni.so \
+    vendor/meizu/meilan2/proprietary/lib64/libem_lte_jni.so:system/lib64/libem_lte_jni.so \
+    vendor/meizu/meilan2/proprietary/lib/libem_modem_jni.so:system/lib/libem_modem_jni.so \
+    vendor/meizu/meilan2/proprietary/lib64/libem_modem_jni.so:system/lib64/libem_modem_jni.so \
+    vendor/meizu/meilan2/proprietary/lib/libem_sensor_jni.so:system/lib/libem_sensor_jni.so \
+    vendor/meizu/meilan2/proprietary/lib64/libem_sensor_jni.so:system/lib64/libem_sensor_jni.so \
+    vendor/meizu/meilan2/proprietary/lib/libem_support_jni.so:system/lib/libem_support_jni.so \
+    vendor/meizu/meilan2/proprietary/lib64/libem_support_jni.so:system/lib64/libem_support_jni.so \
+    vendor/meizu/meilan2/proprietary/lib/libem_usb_jni.so:system/lib/libem_usb_jni.so \
+    vendor/meizu/meilan2/proprietary/lib64/libem_usb_jni.so:system/lib64/libem_usb_jni.so \
+    vendor/meizu/meilan2/proprietary/lib/libem_wifi_jni.so:system/lib/libem_wifi_jni.so \
+    vendor/meizu/meilan2/proprietary/lib64/libem_wifi_jni.so:system/lib64/libem_wifi_jni.so \
     vendor/meizu/meilan2/proprietary/lib/libdpframework.so:system/lib/libdpframework.so \
     vendor/meizu/meilan2/proprietary/lib64/libdpframework.so:system/lib64/libdpframework.so \
     vendor/meizu/meilan2/proprietary/lib/libged.so:system/lib/libged.so \
