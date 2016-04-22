@@ -27,7 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/meilan2/proprietary/lib64/libbtstd.so:system/lib64/libbtstd.so \
     vendor/meizu/meilan2/proprietary/lib/libextsys.so:system/lib/libextsys.so \
     vendor/meizu/meilan2/proprietary/lib64/libextsys.so:system/lib64/libextsys.so \
-    vendor/meizu/meilan2/proprietary/app/MtkBt/MtkBt.apk:system/app/MtkBt/MtkBt.apk \
     vendor/meizu/meilan2/proprietary/lib64/libbluetoothem_mtk.so:system/lib64/libbluetoothem_mtk.so \
     vendor/meizu/meilan2/proprietary/lib64/libbluetooth_mtk.so:system/lib64/libbluetooth_mtk.so \
     vendor/meizu/meilan2/proprietary/lib/libbluetooth_mtk.so:system/lib/libbluetooth_mtk.so \
