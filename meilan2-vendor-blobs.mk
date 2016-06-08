@@ -81,8 +81,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/meilan2/proprietary/lib/libcam1_utils.so:system/lib/libcam1_utils.so \
     vendor/meizu/meilan2/proprietary/lib/libcam3_app.so:system/lib/libcam3_app.so \
     vendor/meizu/meilan2/proprietary/lib64/libcam3_app.so:system/lib64/libcam3_app.so \
-    vendor/meizu/meilan2/proprietary/lib/libmeizucamera.so:system/lib/libmeizucamera.so \
-    vendor/meizu/meilan2/proprietary/lib64/libmeizucamera.so:system/lib64/libmeizucamera.so \
     vendor/meizu/meilan2/proprietary/lib/libcam3_pipeline.so:system/lib/libcam3_pipeline.so \
     vendor/meizu/meilan2/proprietary/lib64/libcam3_pipeline.so:system/lib64/libcam3_pipeline.so \
     vendor/meizu/meilan2/proprietary/lib/libcam3_utils.so:system/lib/libcam3_utils.so \
