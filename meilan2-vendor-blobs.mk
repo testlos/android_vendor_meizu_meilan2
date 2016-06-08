@@ -207,6 +207,8 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/meilan2/proprietary/bin/guiext-server:system/bin/guiext-server \
     vendor/meizu/meilan2/proprietary/bin/MtkCodecService:system/bin/MtkCodecService \
     vendor/meizu/meilan2/proprietary/bin/AcdApiDaemon:system/bin/AcdApiDaemon \
+    vendor/meizu/meilan2/proprietary/bin/kpoc_charger:system/bin/kpoc_charger \
+    vendor/meizu/meilan2/proprietary/lib/libshowlogo.so:system/lib/libshowlogo.so \
     vendor/meizu/meilan2/proprietary/xbin/BGW:system/xbin/BGW \
     vendor/meizu/meilan2/proprietary/xbin/mnld:system/xbin/mnld \
     vendor/meizu/meilan2/proprietary/lib/libmnl.so:system/lib/libmnl.so \
