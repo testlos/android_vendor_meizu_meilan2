@@ -431,4 +431,10 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/meilan2/proprietary/lib/libvp8dec_sa.ca7.so:system/lib/libvp8dec_sa.ca7.so \
     vendor/meizu/meilan2/proprietary/lib/libvp8enc_sa.ca7.so:system/lib/libvp8enc_sa.ca7.so \
     vendor/meizu/meilan2/proprietary/lib/libvp9dec_sa.ca7.so:system/lib/libvp9dec_sa.ca7.so \
+    vendor/meizu/meilan2/proprietary/lib/libmtcloader.so:system/lib/libmtcloader.so \
+    vendor/meizu/meilan2/proprietary/etc/.tp/thermal.conf:system/etc/.tp/thermal.conf \
+    vendor/meizu/meilan2/proprietary/etc/.tp/thermal.high.conf:system/etc/.tp/thermal.high.conf \
+    vendor/meizu/meilan2/proprietary/etc/.tp/thermal.mid.conf:system/etc/.tp/thermal.mid.conf \
+    vendor/meizu/meilan2/proprietary/etc/.tp/thermal.low.conf:system/etc/.tp/thermal.low.conf \
+    vendor/meizu/meilan2/proprietary/etc/.tp/thermal.off.conf:system/etc/.tp/thermal.off.conf \
 # end of blobs
