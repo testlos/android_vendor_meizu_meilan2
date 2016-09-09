@@ -192,6 +192,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/meilan2/proprietary/bin/pppd:system/bin/pppd \
     vendor/meizu/meilan2/proprietary/bin/pppd_dt:system/bin/pppd_dt \
     vendor/meizu/meilan2/proprietary/bin/program_binary_service:system/bin/program_binary_service \
+    vendor/meizu/meilan2/proprietary/bin/qmcX983d:system/bin/qmcX983d \
     vendor/meizu/meilan2/proprietary/bin/s62xd:system/bin/s62xd \
     vendor/meizu/meilan2/proprietary/bin/sn:system/bin/sn \
     vendor/meizu/meilan2/proprietary/bin/terservice:system/bin/terservice \
