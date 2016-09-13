@@ -325,6 +325,12 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/meilan2/proprietary/lib64/libem_usb_jni.so:system/lib64/libem_usb_jni.so \
     vendor/meizu/meilan2/proprietary/lib/libem_wifi_jni.so:system/lib/libem_wifi_jni.so \
     vendor/meizu/meilan2/proprietary/lib64/libem_wifi_jni.so:system/lib64/libem_wifi_jni.so \
+    vendor/meizu/meilan2/proprietary/lib/libbluetooth_relayer.so:system/lib/libbluetooth_relayer.so \
+    vendor/meizu/meilan2/proprietary/lib64/libbluetooth_relayer.so:system/lib64/libbluetooth_relayer.so \
+    vendor/meizu/meilan2/proprietary/lib/libbtem.so:system/lib/libbtem.so \
+    vendor/meizu/meilan2/proprietary/lib64/libbtem.so:system/lib64/libbtem.so \
+    vendor/meizu/meilan2/proprietary/lib/libextem.so:system/lib/libextem.so \
+    vendor/meizu/meilan2/proprietary/lib64/libextem.so:system/lib64/libextem.so \
     vendor/meizu/meilan2/proprietary/lib/libdpframework.so:system/lib/libdpframework.so \
     vendor/meizu/meilan2/proprietary/lib64/libdpframework.so:system/lib64/libdpframework.so \
     vendor/meizu/meilan2/proprietary/lib/libged.so:system/lib/libged.so \
