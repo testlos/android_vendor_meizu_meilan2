@@ -1,10 +1,10 @@
-# Copyright (C) 2011 The CyanogenMod Project
+# Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
 #
-#      http://www.apache.org/licenses/LICENSE-2.0
+# http://www.apache.org/licenses/LICENSE-2.0
 #
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
@@ -27,10 +27,10 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/meilan2/proprietary/lib64/libbtstd.so:system/lib64/libbtstd.so \
     vendor/meizu/meilan2/proprietary/lib/libextsys.so:system/lib/libextsys.so \
     vendor/meizu/meilan2/proprietary/lib64/libextsys.so:system/lib64/libextsys.so \
-    vendor/meizu/meilan2/proprietary/lib64/libbluetoothem_mtk.so:system/lib64/libbluetoothem_mtk.so \
-    vendor/meizu/meilan2/proprietary/lib64/libbluetooth_mtk.so:system/lib64/libbluetooth_mtk.so \
-    vendor/meizu/meilan2/proprietary/lib/libbluetooth_mtk.so:system/lib/libbluetooth_mtk.so \
     vendor/meizu/meilan2/proprietary/lib/libbluetoothem_mtk.so:system/lib/libbluetoothem_mtk.so \
+    vendor/meizu/meilan2/proprietary/lib64/libbluetoothem_mtk.so:system/lib64/libbluetoothem_mtk.so \
+    vendor/meizu/meilan2/proprietary/lib/libbluetooth_mtk.so:system/lib/libbluetooth_mtk.so \
+    vendor/meizu/meilan2/proprietary/lib64/libbluetooth_mtk.so:system/lib64/libbluetooth_mtk.so \
     vendor/meizu/meilan2/proprietary/lib/libbluetoothdrv.so:system/lib/libbluetoothdrv.so \
     vendor/meizu/meilan2/proprietary/lib64/libbluetoothdrv.so:system/lib64/libbluetoothdrv.so \
     vendor/meizu/meilan2/proprietary/bin/mtkbt:system/bin/mtkbt \
@@ -40,45 +40,45 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/meilan2/proprietary/vendor/lib/hw/audio.a2dp.blueangel.so:system/vendor/lib/hw/audio.a2dp.blueangel.so \
     vendor/meizu/meilan2/proprietary/lib/libcamera_client_mtk.so:system/lib/libcamera_client_mtk.so \
     vendor/meizu/meilan2/proprietary/lib64/libcamera_client_mtk.so:system/lib64/libcamera_client_mtk.so \
-    vendor/meizu/meilan2/proprietary/lib64/hw/camera.mt6735.so:system/lib64/hw/camera.mt6735.so \
     vendor/meizu/meilan2/proprietary/lib/hw/camera.mt6735.so:system/lib/hw/camera.mt6735.so \
-    vendor/meizu/meilan2/proprietary/lib/libcam.camadapter.so:system/lib/libcam.camadapter.so \
-    vendor/meizu/meilan2/proprietary/lib/libcam.camnode.so:system/lib/libcam.camnode.so \
-    vendor/meizu/meilan2/proprietary/lib/libcam.camshot.so:system/lib/libcam.camshot.so \
-    vendor/meizu/meilan2/proprietary/lib/libcam.device1.so:system/lib/libcam.device1.so \
-    vendor/meizu/meilan2/proprietary/lib/libcam.device3.so:system/lib/libcam.device3.so \
-    vendor/meizu/meilan2/proprietary/lib/libcam.hal3a.v3.so:system/lib/libcam.hal3a.v3.so \
-    vendor/meizu/meilan2/proprietary/lib/libcam.halsensor.so:system/lib/libcam.halsensor.so \
-    vendor/meizu/meilan2/proprietary/lib/libcam.iopipe.so:system/lib/libcam.iopipe.so \
-    vendor/meizu/meilan2/proprietary/lib/libcam.metadataprovider.so:system/lib/libcam.metadataprovider.so \
-    vendor/meizu/meilan2/proprietary/lib/libcam.paramsmgr.so:system/lib/libcam.paramsmgr.so \
-    vendor/meizu/meilan2/proprietary/lib/libcam3_hwnode.so:system/lib/libcam3_hwnode.so \
-    vendor/meizu/meilan2/proprietary/lib/libcam_hwutils.so:system/lib/libcam_hwutils.so \
-    vendor/meizu/meilan2/proprietary/lib/libcam3_hwpipeline.so:system/lib/libcam3_hwpipeline.so \
+    vendor/meizu/meilan2/proprietary/lib64/hw/camera.mt6735.so:system/lib64/hw/camera.mt6735.so \
     vendor/meizu/meilan2/proprietary/lib/hw/mmsdk.default.so:system/lib/hw/mmsdk.default.so \
-    vendor/meizu/meilan2/proprietary/lib/libcam_utils.so:system/lib/libcam_utils.so \
     vendor/meizu/meilan2/proprietary/lib64/hw/mmsdk.default.so:system/lib64/hw/mmsdk.default.so \
     vendor/meizu/meilan2/proprietary/lib64/libacdk.so:system/lib64/libacdk.so \
+    vendor/meizu/meilan2/proprietary/lib/libcam.camadapter.so:system/lib/libcam.camadapter.so \
     vendor/meizu/meilan2/proprietary/lib64/libcam.camadapter.so:system/lib64/libcam.camadapter.so \
+    vendor/meizu/meilan2/proprietary/lib/libcam.camnode.so:system/lib/libcam.camnode.so \
     vendor/meizu/meilan2/proprietary/lib64/libcam.camnode.so:system/lib64/libcam.camnode.so \
+    vendor/meizu/meilan2/proprietary/lib/libcam.camshot.so:system/lib/libcam.camshot.so \
     vendor/meizu/meilan2/proprietary/lib64/libcam.camshot.so:system/lib64/libcam.camshot.so \
+    vendor/meizu/meilan2/proprietary/lib/libcam.device1.so:system/lib/libcam.device1.so \
     vendor/meizu/meilan2/proprietary/lib64/libcam.device1.so:system/lib64/libcam.device1.so \
+    vendor/meizu/meilan2/proprietary/lib/libcam.device3.so:system/lib/libcam.device3.so \
     vendor/meizu/meilan2/proprietary/lib64/libcam.device3.so:system/lib64/libcam.device3.so \
+    vendor/meizu/meilan2/proprietary/lib/libcam.hal3a.v3.so:system/lib/libcam.hal3a.v3.so \
     vendor/meizu/meilan2/proprietary/lib64/libcam.hal3a.v3.so:system/lib64/libcam.hal3a.v3.so \
+    vendor/meizu/meilan2/proprietary/lib/libcam.halsensor.so:system/lib/libcam.halsensor.so \
     vendor/meizu/meilan2/proprietary/lib64/libcam.halsensor.so:system/lib64/libcam.halsensor.so \
+    vendor/meizu/meilan2/proprietary/lib/libcam.iopipe.so:system/lib/libcam.iopipe.so \
     vendor/meizu/meilan2/proprietary/lib64/libcam.iopipe.so:system/lib64/libcam.iopipe.so \
+    vendor/meizu/meilan2/proprietary/lib/libcam.metadataprovider.so:system/lib/libcam.metadataprovider.so \
     vendor/meizu/meilan2/proprietary/lib64/libcam.metadataprovider.so:system/lib64/libcam.metadataprovider.so \
+    vendor/meizu/meilan2/proprietary/lib/libcam.paramsmgr.so:system/lib/libcam.paramsmgr.so \
     vendor/meizu/meilan2/proprietary/lib64/libcam.paramsmgr.so:system/lib64/libcam.paramsmgr.so \
+    vendor/meizu/meilan2/proprietary/lib/libcam3_hwnode.so:system/lib/libcam3_hwnode.so \
     vendor/meizu/meilan2/proprietary/lib64/libcam3_hwnode.so:system/lib64/libcam3_hwnode.so \
+    vendor/meizu/meilan2/proprietary/lib/libcam_hwutils.so:system/lib/libcam_hwutils.so \
     vendor/meizu/meilan2/proprietary/lib64/libcam_hwutils.so:system/lib64/libcam_hwutils.so \
+    vendor/meizu/meilan2/proprietary/lib/libcam3_hwpipeline.so:system/lib/libcam3_hwpipeline.so \
     vendor/meizu/meilan2/proprietary/lib64/libcam3_hwpipeline.so:system/lib64/libcam3_hwpipeline.so \
+    vendor/meizu/meilan2/proprietary/lib/libcam_utils.so:system/lib/libcam_utils.so \
     vendor/meizu/meilan2/proprietary/lib64/libcam_utils.so:system/lib64/libcam_utils.so \
     vendor/meizu/meilan2/proprietary/lib/libcam_platform.so:system/lib/libcam_platform.so \
     vendor/meizu/meilan2/proprietary/lib64/libcam_platform.so:system/lib64/libcam_platform.so \
     vendor/meizu/meilan2/proprietary/lib/libcam.client.so:system/lib/libcam.client.so \
     vendor/meizu/meilan2/proprietary/lib64/libcam.client.so:system/lib64/libcam.client.so \
-    vendor/meizu/meilan2/proprietary/lib64/libcam1_utils.so:system/lib64/libcam1_utils.so \
     vendor/meizu/meilan2/proprietary/lib/libcam1_utils.so:system/lib/libcam1_utils.so \
+    vendor/meizu/meilan2/proprietary/lib64/libcam1_utils.so:system/lib64/libcam1_utils.so \
     vendor/meizu/meilan2/proprietary/lib/libcam3_app.so:system/lib/libcam3_app.so \
     vendor/meizu/meilan2/proprietary/lib64/libcam3_app.so:system/lib64/libcam3_app.so \
     vendor/meizu/meilan2/proprietary/lib/libcam3_pipeline.so:system/lib/libcam3_pipeline.so \
@@ -123,26 +123,29 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/meilan2/proprietary/app/YGPS/YGPS.apk:system/app/YGPS/YGPS.apk \
     vendor/meizu/meilan2/proprietary/bin/mtk_agpsd:system/bin/mtk_agpsd \
     vendor/meizu/meilan2/proprietary/etc/agps_profiles_conf2.xml:system/etc/agps_profiles_conf2.xml \
-    vendor/meizu/meilan2/proprietary/lib64/mtk-ril.so:system/lib64/mtk-ril.so \
-    vendor/meizu/meilan2/proprietary/lib64/mtk-rilmd2.so:system/lib64/mtk-rilmd2.so \
-    vendor/meizu/meilan2/proprietary/lib64/librilmtkmd2.so:system/lib64/librilmtkmd2.so \
-    vendor/meizu/meilan2/proprietary/lib64/librilmtk.so:system/lib64/librilmtk.so \
-    vendor/meizu/meilan2/proprietary/lib/mtk-ril.so:system/lib/mtk-ril.so \
-    vendor/meizu/meilan2/proprietary/lib/mtk-rilmd2.so:system/lib/mtk-rilmd2.so \
-    vendor/meizu/meilan2/proprietary/lib/librilmtkmd2.so:system/lib/librilmtkmd2.so \
-    vendor/meizu/meilan2/proprietary/lib/librilmtk.so:system/lib/librilmtk.so \
     vendor/meizu/meilan2/proprietary/bin/mtkrild:system/bin/mtkrild \
     vendor/meizu/meilan2/proprietary/bin/mtkrildmd2:system/bin/mtkrildmd2 \
+    vendor/meizu/meilan2/proprietary/lib/mtk-ril.so:system/lib/mtk-ril.so \
+    vendor/meizu/meilan2/proprietary/lib64/mtk-ril.so:system/lib64/mtk-ril.so \
+    vendor/meizu/meilan2/proprietary/lib/mtk-rilmd2.so:system/lib/mtk-rilmd2.so \
+    vendor/meizu/meilan2/proprietary/lib64/mtk-rilmd2.so:system/lib64/mtk-rilmd2.so \
+    vendor/meizu/meilan2/proprietary/lib/librilmtkmd2.so:system/lib/librilmtkmd2.so \
+    vendor/meizu/meilan2/proprietary/lib64/librilmtkmd2.so:system/lib64/librilmtkmd2.so \
+    vendor/meizu/meilan2/proprietary/lib/librilmtk.so:system/lib/librilmtk.so \
+    vendor/meizu/meilan2/proprietary/lib64/librilmtk.so:system/lib64/librilmtk.so \
+    vendor/meizu/meilan2/proprietary/lib/libmdfx.so:system/lib/libmdfx.so \
+    vendor/meizu/meilan2/proprietary/lib64/libmdfx.so:system/lib64/libmdfx.so \
+    vendor/meizu/meilan2/proprietary/lib/libmal.so:system/lib/libmal.so \
+    vendor/meizu/meilan2/proprietary/lib64/libmal.so:system/lib64/libmal.so \
     vendor/meizu/meilan2/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
     vendor/meizu/meilan2/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
     vendor/meizu/meilan2/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
     vendor/meizu/meilan2/proprietary/lib64/libmtksqlite3_custom.so:system/lib64/libmtksqlite3_custom.so \
     vendor/meizu/meilan2/proprietary/lib64/libmtksqlite3_android.so:system/lib64/libmtksqlite3_android.so \
-    vendor/meizu/meilan2/proprietary/lib/libion_mtk.so:system/lib/libion_mtk.so \
     vendor/meizu/meilan2/proprietary/lib/libmsbc_mtk.so:system/lib/libmsbc_mtk.so \
     vendor/meizu/meilan2/proprietary/bin/mtk_setprop:system/bin/mtk_setprop \
-    vendor/meizu/meilan2/proprietary/lib64/libbessound_hd_mtk.so:system/lib64/libbessound_hd_mtk.so \
     vendor/meizu/meilan2/proprietary/lib/libbessound_hd_mtk.so:system/lib/libbessound_hd_mtk.so \
+    vendor/meizu/meilan2/proprietary/lib64/libbessound_hd_mtk.so:system/lib64/libbessound_hd_mtk.so \
     vendor/meizu/meilan2/proprietary/lib/libbessurround_mtk.so:system/lib/libbessurround_mtk.so \
     vendor/meizu/meilan2/proprietary/lib/libaudio-resampler.so:system/lib/libaudio-resampler.so \
     vendor/meizu/meilan2/proprietary/lib/libaudiocompensationfilter.so:system/lib/libaudiocompensationfilter.so \
@@ -152,9 +155,10 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/meilan2/proprietary/lib/libaudiomtkdcremoval.so:system/lib/libaudiomtkdcremoval.so \
     vendor/meizu/meilan2/proprietary/lib/libaudiosetting.so:system/lib/libaudiosetting.so \
     vendor/meizu/meilan2/proprietary/lib/libwebrtc_audio_preprocessing.so:system/lib/libwebrtc_audio_preprocessing.so \
+    vendor/meizu/meilan2/proprietary/lib/hw/audio.primary.mt6735.so:system/lib/hw/audio.primary.mt6735.so \
     vendor/meizu/meilan2/proprietary/lib64/hw/audio.primary.mt6735.so:system/lib64/hw/audio.primary.mt6735.so \
-    vendor/meizu/meilan2/proprietary/lib64/libaed.so:system/lib64/libaed.so \
     vendor/meizu/meilan2/proprietary/lib/libaed.so:system/lib/libaed.so \
+    vendor/meizu/meilan2/proprietary/lib64/libaed.so:system/lib64/libaed.so \
     vendor/meizu/meilan2/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/meizu/meilan2/proprietary/lib64/libtinyalsa.so:system/lib64/libtinyalsa.so \
     vendor/meizu/meilan2/proprietary/etc/audio_device.xml:system/etc/audio_device.xml \
@@ -211,24 +215,14 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/meilan2/proprietary/xbin/BGW:system/xbin/BGW \
     vendor/meizu/meilan2/proprietary/xbin/mnld:system/xbin/mnld \
     vendor/meizu/meilan2/proprietary/lib/libmnl.so:system/lib/libmnl.so \
-    vendor/meizu/meilan2/proprietary/lib64/hw/memtrack.mt6735.so:system/lib64/hw/memtrack.mt6735.so \
-    vendor/meizu/meilan2/proprietary/lib64/hw/sensors.mt6735.so:system/lib64/hw/sensors.mt6735.so \
-    vendor/meizu/meilan2/proprietary/lib/hw/audio.primary.mt6735.so:system/lib/hw/audio.primary.mt6735.so \
-    vendor/meizu/meilan2/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/meizu/meilan2/proprietary/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
-    vendor/meizu/meilan2/proprietary/lib/hw/gralloc.mt6735.so:system/lib/hw/gralloc.mt6735.so \
-    vendor/meizu/meilan2/proprietary/lib/hw/hwcomposer.mt6735.so:system/lib/hw/hwcomposer.mt6735.so \
-    vendor/meizu/meilan2/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
-    vendor/meizu/meilan2/proprietary/lib/hw/lights.default.so:system/lib/hw/lights.default.so \
-    vendor/meizu/meilan2/proprietary/lib64/hw/lights.default.so:system/lib64/hw/lights.default.so \
-    vendor/meizu/meilan2/proprietary/lib/hw/local_time.default.so:system/lib/hw/local_time.default.so \
     vendor/meizu/meilan2/proprietary/lib/hw/memtrack.mt6735.so:system/lib/hw/memtrack.mt6735.so \
-    vendor/meizu/meilan2/proprietary/lib/hw/power.default.so:system/lib/hw/power.default.so \
+    vendor/meizu/meilan2/proprietary/lib64/hw/memtrack.mt6735.so:system/lib64/hw/memtrack.mt6735.so \
     vendor/meizu/meilan2/proprietary/lib/hw/sensors.mt6735.so:system/lib/hw/sensors.mt6735.so \
-    vendor/meizu/meilan2/proprietary/lib/hw/vibrator.default.so:system/lib/hw/vibrator.default.so \
+    vendor/meizu/meilan2/proprietary/lib64/hw/sensors.mt6735.so:system/lib64/hw/sensors.mt6735.so \
     vendor/meizu/meilan2/proprietary/lib/egl/libGLES_mali.so:system/lib/egl/libGLES_mali.so \
     vendor/meizu/meilan2/proprietary/lib64/egl/libGLES_mali.so:system/lib64/egl/libGLES_mali.so \
-    vendor/meizu/meilan2/proprietary/lib/ssl/engines/libkeystore.so:system/lib/ssl/engines/libkeystore.so \
+    vendor/meizu/meilan2/proprietary/lib/hw/lights.default.so:system/lib/hw/lights.default.so \
+    vendor/meizu/meilan2/proprietary/lib64/hw/lights.default.so:system/lib64/hw/lights.default.so \
     vendor/meizu/meilan2/proprietary/etc/firmware/ROMv2_lm_patch_1_0_hdr.bin:system/etc/firmware/ROMv2_lm_patch_1_0_hdr.bin \
     vendor/meizu/meilan2/proprietary/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin:system/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin \
     vendor/meizu/meilan2/proprietary/etc/firmware/S_ANDRO_SFL.ini:system/etc/firmware/S_ANDRO_SFL.ini \
@@ -303,8 +297,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/meilan2/proprietary/lib64/libdrmmtkwhitelist.so:system/lib64/libdrmmtkwhitelist.so \
     vendor/meizu/meilan2/proprietary/lib/libfeatureio.so:system/lib/libfeatureio.so \
     vendor/meizu/meilan2/proprietary/lib64/libfeatureio.so:system/lib64/libfeatureio.so \
-    vendor/meizu/meilan2/proprietary/lib/libcurl.so:system/lib/libcurl.so \
-    vendor/meizu/meilan2/proprietary/lib64/libcurl.so:system/lib64/libcurl.so \
     vendor/meizu/meilan2/proprietary/lib/libBnMtkCodec.so:system/lib/libBnMtkCodec.so \
     vendor/meizu/meilan2/proprietary/lib64/libBnMtkCodec.so:system/lib64/libBnMtkCodec.so \
     vendor/meizu/meilan2/proprietary/lib/libem_support_jni.so:system/lib/libem_support_jni.so \
@@ -337,30 +329,26 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/meilan2/proprietary/lib64/libged.so:system/lib64/libged.so \
     vendor/meizu/meilan2/proprietary/lib/libgpu_aux.so:system/lib/libgpu_aux.so \
     vendor/meizu/meilan2/proprietary/lib64/libgpu_aux.so:system/lib64/libgpu_aux.so \
+    vendor/meizu/meilan2/proprietary/lib/hw/gralloc.mt6735.so:system/lib/hw/gralloc.mt6735.so \
     vendor/meizu/meilan2/proprietary/lib64/hw/gralloc.mt6735.so:system/lib64/hw/gralloc.mt6735.so \
-    vendor/meizu/meilan2/proprietary/lib64/libEGL.so:system/lib64/libEGL.so \
-    vendor/meizu/meilan2/proprietary/lib64/libGLES_trace.so:system/lib64/libGLES_trace.so \
-    vendor/meizu/meilan2/proprietary/lib64/libGLESv1_CM.so:system/lib64/libGLESv1_CM.so \
-    vendor/meizu/meilan2/proprietary/lib64/libGLESv2.so:system/lib64/libGLESv2.so \
-    vendor/meizu/meilan2/proprietary/lib64/libGLESv3.so:system/lib64/libGLESv3.so \
-    vendor/meizu/meilan2/proprietary/lib64/libgralloc_extra.so:system/lib64/libgralloc_extra.so \
     vendor/meizu/meilan2/proprietary/lib/libgralloc_extra.so:system/lib/libgralloc_extra.so \
+    vendor/meizu/meilan2/proprietary/lib64/libgralloc_extra.so:system/lib64/libgralloc_extra.so \
     vendor/meizu/meilan2/proprietary/lib/libion.so:system/lib/libion.so \
     vendor/meizu/meilan2/proprietary/lib64/libion.so:system/lib64/libion.so \
     vendor/meizu/meilan2/proprietary/lib/libmtk_drvb.so:system/lib/libmtk_drvb.so \
     vendor/meizu/meilan2/proprietary/lib64/libmtk_drvb.so:system/lib64/libmtk_drvb.so \
+    vendor/meizu/meilan2/proprietary/lib/libion_mtk.so:system/lib/libion_mtk.so \
     vendor/meizu/meilan2/proprietary/lib64/libion_mtk.so:system/lib64/libion_mtk.so \
     vendor/meizu/meilan2/proprietary/lib/libm4u.so:system/lib/libm4u.so \
     vendor/meizu/meilan2/proprietary/lib64/libm4u.so:system/lib64/libm4u.so \
     vendor/meizu/meilan2/proprietary/lib/libpq_prot.so:system/lib/libpq_prot.so \
     vendor/meizu/meilan2/proprietary/lib64/libpq_prot.so:system/lib64/libpq_prot.so \
+    vendor/meizu/meilan2/proprietary/lib/hw/hwcomposer.mt6735.so:system/lib/hw/hwcomposer.mt6735.so \
     vendor/meizu/meilan2/proprietary/lib64/hw/hwcomposer.mt6735.so:system/lib64/hw/hwcomposer.mt6735.so \
     vendor/meizu/meilan2/proprietary/lib/libbwc.so:system/lib/libbwc.so \
     vendor/meizu/meilan2/proprietary/lib64/libbwc.so:system/lib64/libbwc.so \
     vendor/meizu/meilan2/proprietary/lib/libgui_ext.so:system/lib/libgui_ext.so \
     vendor/meizu/meilan2/proprietary/lib64/libgui_ext.so:system/lib64/libgui_ext.so \
-    vendor/meizu/meilan2/proprietary/lib/libperfservicenative.so:system/lib/libperfservicenative.so \
-    vendor/meizu/meilan2/proprietary/lib64/libperfservicenative.so:system/lib64/libperfservicenative.so \
     vendor/meizu/meilan2/proprietary/lib/libui_ext.so:system/lib/libui_ext.so \
     vendor/meizu/meilan2/proprietary/lib64/libui_ext.so:system/lib64/libui_ext.so \
     vendor/meizu/meilan2/proprietary/lib/libui.so:system/lib/libui.so \
@@ -375,14 +363,14 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/meilan2/proprietary/lib/libfile_op.so:system/lib/libfile_op.so \
     vendor/meizu/meilan2/proprietary/lib64/libfile_op.so:system/lib64/libfile_op.so \
     vendor/meizu/meilan2/proprietary/lib/libnvramagentclient.so:system/lib/libnvramagentclient.so \
-    vendor/meizu/meilan2/proprietary/lib/libnvram_daemon_callback.so:system/lib/libnvram_daemon_callback.so \
-    vendor/meizu/meilan2/proprietary/lib/libnvram_platform.so:system/lib/libnvram_platform.so \
-    vendor/meizu/meilan2/proprietary/lib/libnvram_sec.so:system/lib/libnvram_sec.so \
-    vendor/meizu/meilan2/proprietary/lib/libnvram.so:system/lib/libnvram.so \
     vendor/meizu/meilan2/proprietary/lib64/libnvramagentclient.so:system/lib64/libnvramagentclient.so \
+    vendor/meizu/meilan2/proprietary/lib/libnvram_daemon_callback.so:system/lib/libnvram_daemon_callback.so \
     vendor/meizu/meilan2/proprietary/lib64/libnvram_daemon_callback.so:system/lib64/libnvram_daemon_callback.so \
+    vendor/meizu/meilan2/proprietary/lib/libnvram_platform.so:system/lib/libnvram_platform.so \
     vendor/meizu/meilan2/proprietary/lib64/libnvram_platform.so:system/lib64/libnvram_platform.so \
+    vendor/meizu/meilan2/proprietary/lib/libnvram_sec.so:system/lib/libnvram_sec.so \
     vendor/meizu/meilan2/proprietary/lib64/libnvram_sec.so:system/lib64/libnvram_sec.so \
+    vendor/meizu/meilan2/proprietary/lib/libnvram.so:system/lib/libnvram.so \
     vendor/meizu/meilan2/proprietary/lib64/libnvram.so:system/lib64/libnvram.so \
     vendor/meizu/meilan2/proprietary/lib/libcustom_nvram.so:system/lib/libcustom_nvram.so \
     vendor/meizu/meilan2/proprietary/lib64/libcustom_nvram.so:system/lib64/libcustom_nvram.so \
@@ -392,30 +380,25 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/meilan2/proprietary/etc/mtk_omx_core.cfg:system/etc/mtk_omx_core.cfg \
     vendor/meizu/meilan2/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/meizu/meilan2/proprietary/lib64/libstagefrighthw.so:system/lib64/libstagefrighthw.so \
-    vendor/meizu/meilan2/proprietary/lib/libMtkOmxCore.so:system/lib/libMtkOmxCore.so \
-    vendor/meizu/meilan2/proprietary/lib64/libMtkOmxCore.so:system/lib64/libMtkOmxCore.so \
     vendor/meizu/meilan2/proprietary/lib/libMtkOmxAdpcmDec.so:system/lib/libMtkOmxAdpcmDec.so \
-    vendor/meizu/meilan2/proprietary/lib/libMtkOmxAdpcmEnc.so:system/lib/libMtkOmxAdpcmEnc.so \
-    vendor/meizu/meilan2/proprietary/lib/libMtkOmxAlacDec.so:system/lib/libMtkOmxAlacDec.so \
-    vendor/meizu/meilan2/proprietary/lib/libMtkOmxApeDec.so:system/lib/libMtkOmxApeDec.so \
-    vendor/meizu/meilan2/proprietary/lib/libMtkOmxCore.so:system/lib/libMtkOmxCore.so \
-    vendor/meizu/meilan2/proprietary/lib/libMtkOmxFlacDec.so:system/lib/libMtkOmxFlacDec.so \
-    vendor/meizu/meilan2/proprietary/lib/libMtkOmxG711Dec.so:system/lib/libMtkOmxG711Dec.so \
-    vendor/meizu/meilan2/proprietary/lib/libMtkOmxGsmDec.so:system/lib/libMtkOmxGsmDec.so \
-    vendor/meizu/meilan2/proprietary/lib/libMtkOmxMp3Dec.so:system/lib/libMtkOmxMp3Dec.so \
-    vendor/meizu/meilan2/proprietary/lib/libMtkOmxRawDec.so:system/lib/libMtkOmxRawDec.so \
-    vendor/meizu/meilan2/proprietary/lib/libMtkOmxVdec.so:system/lib/libMtkOmxVdec.so \
-    vendor/meizu/meilan2/proprietary/lib/libMtkOmxVenc.so:system/lib/libMtkOmxVenc.so \
-    vendor/meizu/meilan2/proprietary/lib/libMtkOmxVorbisEnc.so:system/lib/libMtkOmxVorbisEnc.so \
     vendor/meizu/meilan2/proprietary/lib64/libMtkOmxAdpcmDec.so:system/lib64/libMtkOmxAdpcmDec.so \
+    vendor/meizu/meilan2/proprietary/lib/libMtkOmxAdpcmEnc.so:system/lib/libMtkOmxAdpcmEnc.so \
     vendor/meizu/meilan2/proprietary/lib64/libMtkOmxAdpcmEnc.so:system/lib64/libMtkOmxAdpcmEnc.so \
+    vendor/meizu/meilan2/proprietary/lib/libMtkOmxAlacDec.so:system/lib/libMtkOmxAlacDec.so \
     vendor/meizu/meilan2/proprietary/lib64/libMtkOmxAlacDec.so:system/lib64/libMtkOmxAlacDec.so \
+    vendor/meizu/meilan2/proprietary/lib/libMtkOmxApeDec.so:system/lib/libMtkOmxApeDec.so \
     vendor/meizu/meilan2/proprietary/lib64/libMtkOmxApeDec.so:system/lib64/libMtkOmxApeDec.so \
+    vendor/meizu/meilan2/proprietary/lib/libMtkOmxCore.so:system/lib/libMtkOmxCore.so \
     vendor/meizu/meilan2/proprietary/lib64/libMtkOmxCore.so:system/lib64/libMtkOmxCore.so \
+    vendor/meizu/meilan2/proprietary/lib/libMtkOmxG711Dec.so:system/lib/libMtkOmxG711Dec.so \
     vendor/meizu/meilan2/proprietary/lib64/libMtkOmxG711Dec.so:system/lib64/libMtkOmxG711Dec.so \
+    vendor/meizu/meilan2/proprietary/lib/libMtkOmxGsmDec.so:system/lib/libMtkOmxGsmDec.so \
     vendor/meizu/meilan2/proprietary/lib64/libMtkOmxGsmDec.so:system/lib64/libMtkOmxGsmDec.so \
+    vendor/meizu/meilan2/proprietary/lib/libMtkOmxMp3Dec.so:system/lib/libMtkOmxMp3Dec.so \
     vendor/meizu/meilan2/proprietary/lib64/libMtkOmxMp3Dec.so:system/lib64/libMtkOmxMp3Dec.so \
+    vendor/meizu/meilan2/proprietary/lib/libMtkOmxRawDec.so:system/lib/libMtkOmxRawDec.so \
     vendor/meizu/meilan2/proprietary/lib64/libMtkOmxRawDec.so:system/lib64/libMtkOmxRawDec.so \
+    vendor/meizu/meilan2/proprietary/lib/libMtkOmxVorbisEnc.so:system/lib/libMtkOmxVorbisEnc.so \
     vendor/meizu/meilan2/proprietary/lib64/libMtkOmxVorbisEnc.so:system/lib64/libMtkOmxVorbisEnc.so \
     vendor/meizu/meilan2/proprietary/lib/libmhalImageCodec.so:system/lib/libmhalImageCodec.so \
     vendor/meizu/meilan2/proprietary/lib64/libmhalImageCodec.so:system/lib64/libmhalImageCodec.so \
@@ -427,11 +410,14 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/meilan2/proprietary/lib64/libSwJpgCodec.so:system/lib64/libSwJpgCodec.so \
     vendor/meizu/meilan2/proprietary/lib/libvcodec_utility.so:system/lib/libvcodec_utility.so \
     vendor/meizu/meilan2/proprietary/lib64/libvcodec_utility.so:system/lib64/libvcodec_utility.so \
-    vendor/meizu/meilan2/proprietary/lib/libvcodec_oal.so:system/lib/libvcodec_oal.so \
     vendor/meizu/meilan2/proprietary/lib/libvcodecdrv.so:system/lib/libvcodecdrv.so \
     vendor/meizu/meilan2/proprietary/lib64/libvcodecdrv.so:system/lib64/libvcodecdrv.so \
     vendor/meizu/meilan2/proprietary/lib/libmmprofile.so:system/lib/libmmprofile.so \
     vendor/meizu/meilan2/proprietary/lib64/libmmprofile.so:system/lib64/libmmprofile.so \
+    vendor/meizu/meilan2/proprietary/lib/libvcodec_oal.so:system/lib/libvcodec_oal.so \
+    vendor/meizu/meilan2/proprietary/lib/libMtkOmxFlacDec.so:system/lib/libMtkOmxFlacDec.so \
+    vendor/meizu/meilan2/proprietary/lib/libMtkOmxVdec.so:system/lib/libMtkOmxVdec.so \
+    vendor/meizu/meilan2/proprietary/lib/libMtkOmxVenc.so:system/lib/libMtkOmxVenc.so \
     vendor/meizu/meilan2/proprietary/lib/libHEVCdec_sa.ca7.android.so:system/lib/libHEVCdec_sa.ca7.android.so \
     vendor/meizu/meilan2/proprietary/lib/libh264enc_sa.ca7.so:system/lib/libh264enc_sa.ca7.so \
     vendor/meizu/meilan2/proprietary/lib/libmp4enc_sa.ca7.so:system/lib/libmp4enc_sa.ca7.so \
@@ -444,5 +430,4 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/meilan2/proprietary/etc/.tp/thermal.high.conf:system/etc/.tp/thermal.high.conf \
     vendor/meizu/meilan2/proprietary/etc/.tp/thermal.mid.conf:system/etc/.tp/thermal.mid.conf \
     vendor/meizu/meilan2/proprietary/etc/.tp/thermal.low.conf:system/etc/.tp/thermal.low.conf \
-    vendor/meizu/meilan2/proprietary/etc/.tp/thermal.off.conf:system/etc/.tp/thermal.off.conf \
-# end of blobs
+    vendor/meizu/meilan2/proprietary/etc/.tp/thermal.off.conf:system/etc/.tp/thermal.off.conf
