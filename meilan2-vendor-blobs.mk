@@ -323,6 +323,8 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/meilan2/proprietary/lib64/libextem.so:system/lib64/libextem.so \
     vendor/meizu/meilan2/proprietary/lib/libdpframework.so:system/lib/libdpframework.so \
     vendor/meizu/meilan2/proprietary/lib64/libdpframework.so:system/lib64/libdpframework.so \
+    vendor/meizu/meilan2/proprietary/lib/libgas.so:system/lib/libgas.so \
+    vendor/meizu/meilan2/proprietary/lib64/libgas.so:system/lib64/libgas.so \
     vendor/meizu/meilan2/proprietary/lib/libged.so:system/lib/libged.so \
     vendor/meizu/meilan2/proprietary/lib64/libged.so:system/lib64/libged.so \
     vendor/meizu/meilan2/proprietary/lib/libgpu_aux.so:system/lib/libgpu_aux.so \
@@ -331,8 +333,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/meilan2/proprietary/lib64/hw/gralloc.mt6735.so:system/lib64/hw/gralloc.mt6735.so \
     vendor/meizu/meilan2/proprietary/lib/libgralloc_extra.so:system/lib/libgralloc_extra.so \
     vendor/meizu/meilan2/proprietary/lib64/libgralloc_extra.so:system/lib64/libgralloc_extra.so \
-    vendor/meizu/meilan2/proprietary/lib/libion.so:system/lib/libion.so \
-    vendor/meizu/meilan2/proprietary/lib64/libion.so:system/lib64/libion.so \
     vendor/meizu/meilan2/proprietary/lib/libmtk_drvb.so:system/lib/libmtk_drvb.so \
     vendor/meizu/meilan2/proprietary/lib64/libmtk_drvb.so:system/lib64/libmtk_drvb.so \
     vendor/meizu/meilan2/proprietary/lib/libion_mtk.so:system/lib/libion_mtk.so \
@@ -341,12 +341,16 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/meilan2/proprietary/lib64/libm4u.so:system/lib64/libm4u.so \
     vendor/meizu/meilan2/proprietary/lib/libpq_prot.so:system/lib/libpq_prot.so \
     vendor/meizu/meilan2/proprietary/lib64/libpq_prot.so:system/lib64/libpq_prot.so \
+    vendor/meizu/meilan2/proprietary/lib/libpqservice.so:system/lib/libpqservice.so \
+    vendor/meizu/meilan2/proprietary/lib64/libpqservice.so:system/lib64/libpqservice.so \
     vendor/meizu/meilan2/proprietary/lib/hw/hwcomposer.mt6735.so:system/lib/hw/hwcomposer.mt6735.so \
     vendor/meizu/meilan2/proprietary/lib64/hw/hwcomposer.mt6735.so:system/lib64/hw/hwcomposer.mt6735.so \
     vendor/meizu/meilan2/proprietary/lib/libbwc.so:system/lib/libbwc.so \
     vendor/meizu/meilan2/proprietary/lib64/libbwc.so:system/lib64/libbwc.so \
     vendor/meizu/meilan2/proprietary/lib/libgui_ext.so:system/lib/libgui_ext.so \
     vendor/meizu/meilan2/proprietary/lib64/libgui_ext.so:system/lib64/libgui_ext.so \
+    vendor/meizu/meilan2/proprietary/lib/libperfservicenative.so:system/lib/libperfservicenative.so \
+    vendor/meizu/meilan2/proprietary/lib64/libperfservicenative.so:system/lib64/libperfservicenative.so \
     vendor/meizu/meilan2/proprietary/lib/libui_ext.so:system/lib/libui_ext.so \
     vendor/meizu/meilan2/proprietary/lib64/libui_ext.so:system/lib64/libui_ext.so \
     vendor/meizu/meilan2/proprietary/etc/perfservscntbl.txt:system/etc/perfservscntbl.txt \
