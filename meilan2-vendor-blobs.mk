@@ -36,7 +36,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/meilan2/proprietary/lib/libadpcm.so:system/lib/libadpcm.so \
     vendor/meizu/meilan2/proprietary/lib/libpalsecurity.so:system/lib/libpalsecurity.so \
     vendor/meizu/meilan2/proprietary/lib/libpalwlan_mtk.so:system/lib/libpalwlan_mtk.so \
-    vendor/meizu/meilan2/proprietary/vendor/lib/hw/audio.a2dp.blueangel.so:system/vendor/lib/hw/audio.a2dp.blueangel.so \
     vendor/meizu/meilan2/proprietary/lib/libcamera_client_mtk.so:system/lib/libcamera_client_mtk.so \
     vendor/meizu/meilan2/proprietary/lib64/libcamera_client_mtk.so:system/lib64/libcamera_client_mtk.so \
     vendor/meizu/meilan2/proprietary/lib/hw/camera.mt6735.so:system/lib/hw/camera.mt6735.so \
