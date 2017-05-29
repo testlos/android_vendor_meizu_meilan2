@@ -202,19 +202,18 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/meilan2/proprietary/lib/libimageio.so:system/lib/libimageio.so \
     vendor/meizu/meilan2/proprietary/lib64/libimageio.so:system/lib64/libimageio.so \
     vendor/meizu/meilan2/proprietary/lib/libJpgDecPipe.so:system/lib/libJpgDecPipe.so \
-    vendor/meizu/meilan2/proprietary/lib64/libJpgDecPipe.so:system/lib64/libJpgDecPipe.so \
     vendor/meizu/meilan2/proprietary/lib/libSwJpgCodec.so:system/lib/libSwJpgCodec.so \
-    vendor/meizu/meilan2/proprietary/lib64/libSwJpgCodec.so:system/lib64/libSwJpgCodec.so \
     vendor/meizu/meilan2/proprietary/lib/libJpgEncPipe.so:system/lib/libJpgEncPipe.so \
     vendor/meizu/meilan2/proprietary/lib64/libJpgEncPipe.so:system/lib64/libJpgEncPipe.so \
     vendor/meizu/meilan2/proprietary/lib/libmhalImageCodec.so:system/lib/libmhalImageCodec.so \
-    vendor/meizu/meilan2/proprietary/lib64/libmhalImageCodec.so:system/lib64/libmhalImageCodec.so \
+    vendor/meizu/meilan2/proprietary/lib/libmtkcamera_client.so:system/lib/libmtkcamera_client.so \
+    vendor/meizu/meilan2/proprietary/lib64/libmtkcamera_client.so:system/lib64/libmtkcamera_client.so \
     vendor/meizu/meilan2/proprietary/lib/libmtkjpeg.so:system/lib/libmtkjpeg.so \
     vendor/meizu/meilan2/proprietary/lib64/libmtkjpeg.so:system/lib64/libmtkjpeg.so \
     vendor/meizu/meilan2/proprietary/lib/libn3d3a.so:system/lib/libn3d3a.so \
     vendor/meizu/meilan2/proprietary/lib64/libn3d3a.so:system/lib64/libn3d3a.so \
-    vendor/meizu/meilan2/proprietary/lib/libcam.sdkclient.so:system/lib/libcam.sdkclient.so \
-    vendor/meizu/meilan2/proprietary/lib64/libcam.sdkclient.so:system/lib64/libcam.sdkclient.so \
+    vendor/meizu/meilan2/proprietary/lib/libSonyIMX230PdafLibrary.so:system/lib/libSonyIMX230PdafLibrary.so \
+    vendor/meizu/meilan2/proprietary/lib64/libSonyIMX230PdafLibrary.so:system/lib64/libSonyIMX230PdafLibrary.so \
     vendor/meizu/meilan2/proprietary/lib/hw/camera.mt6735.so:system/lib/hw/camera.mt6735.so \
     vendor/meizu/meilan2/proprietary/lib64/hw/camera.mt6735.so:system/lib64/hw/camera.mt6735.so \
     vendor/meizu/meilan2/proprietary/lib/libaudiocompensationfilter.so:system/lib/libaudiocompensationfilter.so \
